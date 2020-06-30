@@ -9,19 +9,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -279,4 +271,10 @@ h3 {
 
 .copyright-text span {
   color: white;
+}
+
+@media screen and (max-width:1030px) {
+  .glider-contain {
+    display: block;
+  }
 }

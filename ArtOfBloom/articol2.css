@@ -9,19 +9,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -80,6 +72,7 @@ p {
   border-bottom: 3px solid #000000;
   margin: 30px 600px;
 }
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -102,13 +95,13 @@ p {
 }
 
 .collage-img {
-  box-sizing: 70%;
+  box-sizing: 90%;
   margin-bottom: 40px;
 }
 
 .collage-img img {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: auto;
 }
 
 /***Text***/
